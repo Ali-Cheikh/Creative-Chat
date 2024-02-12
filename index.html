@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- this project is presented to you by ali cheikh -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="cat.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -22,8 +25,6 @@
     <meta property="twitter:title" content="OUR CHAT" />
     <meta property="twitter:description" content="chat with me privately my love" />
     <meta property="twitter:image" content=" meta-tags.png.png" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -106,8 +107,8 @@
 </head>
 <body>
     <div class="container">
-        <form id="submitForm" action=" https://script.google.com/macros/s/AKfycbxOYdDU3DyUpTYOHnP9sjXOrs3a335VvCTWI21lRh9LK2uPE0fHQOXIhjSmdl8cVKmrpw/exec" method="POST">
-          <center><label for="form">write subject title</label></center>
+        <br>
+        <form id="submitForm" action=" https://script.google.com/you google sheets url" method="POST">
           <input type="text" name="name" placeholder="Write the subject">
           <textarea name="message" placeholder="talk about what ever you too like" required></textarea>
          <center><button type="submit">Submit</button></center>
@@ -134,7 +135,7 @@
     });
 
     // Fetch data from Google Sheets
-    fetch(' https://script.google.com/macros/s/AKfycbxOYdDU3DyUpTYOHnP9sjXOrs3a335VvCTWI21lRh9LK2uPE0fHQOXIhjSmdl8cVKmrpw/exec')
+    fetch('https://script.google.com/your google sheets url')
         .then(response => response.json())
         .then(data => {
             const postsContainer = document.getElementById('postsContainer');
@@ -190,7 +191,7 @@
       <script>
         // Function to fetch data from Google Sheets
         function fetchData() {
-            fetch('https://script.google.com/macros/s/AKfycbxOYdDU3DyUpTYOHnP9sjXOrs3a335VvCTWI21lRh9LK2uPE0fHQOXIhjSmdl8cVKmrpw/exec')
+            fetch('https://script.google.com/your google sheets url')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
