@@ -1,5 +1,8 @@
 # Creative Chat
 
+![Creative Chat Logo](background.png)
+
+
 Creative Chat is a sleek web application that facilitates anonymous messaging, allowing users to post and view messages without revealing their identities. It provides a secure platform for open communication and expression.
 
 ## Features
