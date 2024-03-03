@@ -1,7 +1,7 @@
 
-# OurChat
+# Creative Chat
 
-OurChat is a simple web application that allows users to post anonymous messages and view messages posted by others. It provides a platform for anonymous communication, enabling users to express themselves freely without revealing their identities.
+Creative Chat is a simple web application that allows users to post anonymous messages and view messages posted by others. It provides a platform for anonymous communication, enabling users to express themselves freely without revealing their identities.
 
 ## Features
 
@@ -27,7 +27,7 @@ Contributions are welcome! If you have any suggestions, feature requests, or bug
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
-Special thanks to the developer (me) and contributors (stackoverflow , Chatgpt) of the libraries and tools used in this project.
+Special thanks to the developer (me) and contributors (stackoverflow , github community) of the libraries and tools used in this project.
 
 
    ```bash
