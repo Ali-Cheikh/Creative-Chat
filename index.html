@@ -29,9 +29,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #ff0000;
-        }
+            padding: 0;}
         @media (max-width: 980px){
             .container {
             max-width: 400px;
@@ -49,7 +47,7 @@
         }
 
         form {
-            background-color: #ff00dd;
+            background-color: #0099ffbb;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 5px;
@@ -221,6 +219,25 @@
     
         // Call fetchData function initially
         fetchData();
+    </script>
+    
+    <script>
+        function checkForNewMessages() {
+        fetch('https://script.google.com/your google sheets url')
+            .then(response => response.json())
+            .then(data => {
+                // Check if there are new messages
+                if (data.length > 0) {
+                    // Notify the user about the new messages
+                    alert('New anonymous message posted!');
+                    }
+                })
+                .catch(error => console.error('Error checking for new messages:', error));
+        }
+
+        // Check for new messages every 30 seconds
+        setInterval(checkForNewMessages, 25000);
+
     </script>
 
 </body>
