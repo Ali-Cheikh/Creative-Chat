@@ -3,7 +3,7 @@
 ![Creative Chat Logo](background.png)
 
 
-Creative Chat is a sleek web application that facilitates messaging, allowing users to post and view messages. It provides a secure platform for open communication and expression thanks to the use of Google sheets ![Google sheets](https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png).
+Creative Chat is a sleek web application that facilitates messaging, allowing users to post and view messages. It provides a secure platform for open communication and expression thanks to the use of **Google sheets** ![Google sheets](https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png).
 
 ## Features
 
@@ -12,6 +12,7 @@ Creative Chat is a sleek web application that facilitates messaging, allowing us
 - **Responsive Design**: Enjoy a seamless user experience across various devices, including desktops and mobile phones.
 - **Intuitive Interface**: User-friendly design for effortless message submission and browsing.
 - **Customizable Theme**: Tailor the website's appearance to your preferences with easily modifiable CSS.
+- **Notification System**: a notifier system for notifying when a new message is posted.
 
 ## Technologies Used
 
