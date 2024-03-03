@@ -3,7 +3,7 @@
 ![Creative Chat Logo](background.png)
 
 
-Creative Chat is a sleek web application that facilitates anonymous messaging, allowing users to post and view messages without revealing their identities. It provides a secure platform for open communication and expression.
+Creative Chat is a sleek web application that facilitates messaging, allowing users to post and view messages. It provides a secure platform for open communication and expression thanks to the use of Google sheets ![Google sheets](https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png).
 
 ## Features
 
