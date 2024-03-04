@@ -34,3 +34,5 @@ Special thanks to the developer (me) and contributors from Stack Overflow and th
 
 ```bash
 Stay tuned for a video tutorial on setting up Google Sheets integration.
+
+<img src="https://blog.golayer.io/uploads/images/article/_1200x630_crop_center-center_82_none/How-Secure-Is-Google-Sheets-Google-Sheets-Security-Tips.jpg?mtime=1672317864" alt="Creative Chat Logo" width="100%">
