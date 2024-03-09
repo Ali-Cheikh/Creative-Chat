@@ -3,7 +3,10 @@
 <img src="background.png" alt="Creative Chat Logo" width="100%">
 
 
-Creative Chat is a sleek web application that facilitates messaging, allowing users to post and view messages. It provides a secure platform for open communication and expression thanks to the use of **Google sheets** <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png" alt="Google sheets" width="25px">
+Creative Chat is a sleek web application that facilitates messaging, allowing users to post and view messages. It provides a secure platform for open communication and expression thanks to the use of **Google sheets** <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png" alt="Google sheets" width="25px"><hr>
+You can install the <a href="https://www.google.com/search?q=zip&rlz=1C1PNJJ_frTN1063TN1063&oq=zip&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiPAjIHCAkQABiPAtIBBzY2OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"> zip Folder</a> code from 
+<a href="https://github.com/Ali-Cheikh/Creative-Chat/archive/refs/tags/version0.1.zip">here</a>
+or visit <a href="https://ali-cheikh.github.io/Creative-Chat/">preview</a>
 
 ## Features
 
