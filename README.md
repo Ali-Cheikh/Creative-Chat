@@ -1,4 +1,4 @@
-# Creative Chat
+# Creative Chat ![](https://komarev.com/ghpvc/?username=Ali-Cheikh&color=orange)
 
 <img src="background.png" alt="Creative Chat Logo" width="100%">
 
