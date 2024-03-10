@@ -1,4 +1,5 @@
-# Creative Chat ![](https://komarev.com/ghpvc/?username=Ali-Cheikh&color=orange)
+# Creative Chat ![](https://komarev.com/ghpvc/?username=Ali-Cheikh&color=orange) <a href="https://github.com/Ali-Cheikh"><img alt="Static Badge" src="https://img.shields.io/badge/Follow_me_on%20-Git_Hub-orange"></a>
+
 
 <img src="background.png" alt="Creative Chat Logo" width="100%">
 
