@@ -115,7 +115,7 @@
 <body>
     <div class="container">
         <br>
-        <form id="submitForm" action="https://script.google.com/macros/s/AKfycbxQ6xillt-gVN5M8WqNxDR3t6TRDnWA-cot79dJqyW2UZyXYcyiz7qM4EYe_vrm9r3b5w/exec" method="POST">
+        <form id="submitForm" action="replace with your google script api" method="POST">
             <h2>start chatting</h2>
           <textarea name="message" placeholder="talk about what ever you too like"></textarea>
          <center><button type="submit">Submit</button></center>
@@ -128,7 +128,7 @@
         // Function to fetch data from Google Sheets and update the page
         async function fetchData() {
             try {
-                const response = await fetch('https://script.google.com/macros/s/AKfycbxQ6xillt-gVN5M8WqNxDR3t6TRDnWA-cot79dJqyW2UZyXYcyiz7qM4EYe_vrm9r3b5w/exec');
+                const response = await fetch('replace with your google script api');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
