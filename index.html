@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <!-- this project is presented to you by ali cheikh -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="peanut.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <!-- Primary Meta Tags -->
+    <!-- Primary Meta Tags -->
     <title>OUR CHAT</title>
     <meta name="title" content="OUR CHAT" />
     <meta name="description" content="chat with me privately my love" />
@@ -115,7 +114,7 @@
 <body>
     <div class="container">
         <br>
-        <form id="submitForm" action="replace with your google script api" method="POST">
+        <form id="submitForm" action="https://script.google.com/macros/s/AKfycbxQ6xillt-gVN5M8WqNxDR3t6TRDnWA-cot79dJqyW2UZyXYcyiz7qM4EYe_vrm9r3b5w/exec" method="POST">
             <h2>start chatting</h2>
           <textarea name="message" placeholder="talk about what ever you too like"></textarea>
          <center><button type="submit">Submit</button></center>
@@ -123,19 +122,19 @@
       <div id="postsContainer"></div>
   </div>
     <script>
-        let previousData = null; // Variable to store previous data
+        let previousDataLength = 0; // Variable to store the previous number of messages
 
         // Function to fetch data from Google Sheets and update the page
         async function fetchData() {
             try {
-                const response = await fetch('replace with your google script api');
+                const response = await fetch('https://script.google.com/macros/s/AKfycbxQ6xillt-gVN5M8WqNxDR3t6TRDnWA-cot79dJqyW2UZyXYcyiz7qM4EYe_vrm9r3b5w/exec');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
                 const data = await response.json();
                 
-                // Check if data has changed
-                if (JSON.stringify(data) !== JSON.stringify(previousData)) {
+                // Check if new messages have been added
+                if (data.length > previousDataLength) {
                     const postsContainer = document.getElementById('postsContainer');
                     // Clear previous posts
                     postsContainer.innerHTML = '';
@@ -153,8 +152,11 @@
                         `;
                         postsContainer.appendChild(postElement);
                     });
-                    // Update previousData
-                    previousData = data;
+                    // Update previousDataLength
+                    previousDataLength = data.length;
+
+                    // Trigger custom push notification for new messages
+                    triggerCustomNotification("New Message", "A new message has been received.");
                 }
             } catch (error) {
                 console.error('Error fetching data:', error);
@@ -162,6 +164,30 @@
                 // Schedule the next data fetch in 5 seconds
                 setTimeout(fetchData, 5000);
             }
+        }
+
+        // Function to trigger a customized push notification
+        function triggerCustomNotification(title, body) {
+            // Check if the Notification API is supported
+            if (!("Notification" in window)) {
+                console.error("This browser does not support desktop notification");
+                return;
+            }
+
+            // Request permission to show notifications
+            Notification.requestPermission().then(function(permission) {
+                if (permission === 'granted') {
+                    // Permission granted, show customized notification
+                    const notification = new Notification(title, { body: body });
+                    
+                    // Add event listener for notification click
+                    notification.addEventListener('click', function(event) {
+                        // Handle notification click action here
+                        // For example, open the webpage ourchatt.netlify.app
+                        window.open('https://ourchatt.netlify.app', '_blank');
+                    });
+                }
+            });
         }
 
         // Listen for form submission
