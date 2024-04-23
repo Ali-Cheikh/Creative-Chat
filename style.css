@@ -27,7 +27,7 @@ form {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(255, 0, 0);
 }
 
 form textarea,input {
@@ -37,6 +37,9 @@ form textarea,input {
     border: 1px solid #ff0000;
     border-radius: 5px;
     resize: vertical;
+    background-color: #000000;
+    color: #b3ff00;
+    font-family: cursive;
 }
 label{
   border: 1px solid #ccc;
@@ -48,15 +51,16 @@ label{
 
 form button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ff0000;
+    color: #b3ff00;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 #postsContainer {
-    background-color: #00a2ff;
+    background-color: #a5fd00;
+    margin-top: 20px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -65,15 +69,15 @@ form button {
 .message {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #e96a6ade;
+    background-color: #000000de;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgb(255, 0, 0);
 }
 
 .timestamp {
     font-weight:lighter;
-    color: #4e4e4ed2;
+    color: #ff9900d2;
 }
-h2{
-    color: rgb(255, 166, 0);
+h3{
+    color: rgb(255, 255, 255);
 }
